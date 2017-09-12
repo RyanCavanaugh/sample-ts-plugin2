@@ -5,5 +5,8 @@
         "noImplicitAny": false,
         "sourceMap": false,
         "outDir": "bin"
-    }
+    },
+    "files": [
+        "lib/index.ts"
+    ]
 }

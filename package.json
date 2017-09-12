@@ -1,7 +1,7 @@
 {
-  "name": "sample-ts-plugin",
-  "version": "1.0.1",
-  "description": "Sample TypeScript Language Service Plugin",
+  "name": "sample-ts-plugin2",
+  "version": "0.0.5",
+  "description": "Sample TypeScript Language Service Plugin (With External Files)",
   "main": "bin/index.js",
   "scripts": {
     "prepublish": "node node_modules/typescript/lib/tsc -p .",
@@ -17,10 +17,10 @@
   "author": "Ryan Cavanaugh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RyanCavanaugh/sample-ts-plugin/issues"
+    "url": "https://github.com/RyanCavanaugh/sample-ts-plugin2/issues"
   },
-  "homepage": "https://github.com/RyanCavanaugh/sample-ts-plugin#readme",
+  "homepage": "https://github.com/RyanCavanaugh/sample-ts-plugin2#readme",
   "devDependencies": {
-    "typescript": "^2.2.0-dev.20170213"
+    "typescript": "^2.5.0"
   }
 }
